@@ -1,0 +1,33 @@
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    tools:context="com.gconnect.mediamall.WebFragment">
+
+    <!-- TODO: Update blank fragment layout -->
+   <TextView
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:text="This is a fragment"/>
+
+    <de.hdodenhof.circleimageview.CircleImageView
+        android:layout_width="100dp"
+        android:layout_height="100dp"
+       android:src="@drawable/media_academy"
+        android:layout_gravity="center"
+        app:civ_border_color="@color/colorAccent"
+        app:civ_border_width="2dp"/>
+   <!-- <WebView
+        android:id="@+id/webView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_alignParentTop="true"
+        android:layout_alignParentLeft="true"
+        android:layout_alignParentStart="true"
+        android:layout_marginTop="12dp" />-->
+
+
+
+
+</FrameLayout>
